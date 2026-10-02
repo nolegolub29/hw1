@@ -1,0 +1,3 @@
+grep -o '"[^"]*"' book_hw1.txt > twocities_qoutes.txt 
+grep -oE '\w*\.$' book_hw1.txt > twocities_endings.txt
+grep -oE '\w{5}\.$' book_hw1.txt > twocities_five_letters.txt
